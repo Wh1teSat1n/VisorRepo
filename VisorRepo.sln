@@ -9,9 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F6D493F6-E393-49E7-A2A8-244E772EFB1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisorRepo.Domain", "VisorRepo.Domain\VisorRepo.Domain.csproj", "{53C8E04A-AAF8-4223-AAD1-83D46245C0C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisorRepo.Domain", "VisorRepo.Domain\VisorRepo.Domain.csproj", "{53C8E04A-AAF8-4223-AAD1-83D46245C0C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisorRepo.Application", "VisorRepo.Application\VisorRepo.Application.csproj", "{03CE6146-3556-4E67-9CFF-CADD07A52F3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisorRepo.Application", "VisorRepo.Application\VisorRepo.Application.csproj", "{03CE6146-3556-4E67-9CFF-CADD07A52F3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisorRepo.Persistance", "VisorRepo.Persistance\VisorRepo.Persistance.csproj", "{102C51C4-07B1-4ADC-904E-FA1FEC35249C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisorRepo.WebApi", "VisorRepo.WebApi\VisorRepo.WebApi.csproj", "{F7E04F70-7A5A-4FEB-8248-77D60A0607F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{03CE6146-3556-4E67-9CFF-CADD07A52F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03CE6146-3556-4E67-9CFF-CADD07A52F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03CE6146-3556-4E67-9CFF-CADD07A52F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{102C51C4-07B1-4ADC-904E-FA1FEC35249C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{102C51C4-07B1-4ADC-904E-FA1FEC35249C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{102C51C4-07B1-4ADC-904E-FA1FEC35249C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{102C51C4-07B1-4ADC-904E-FA1FEC35249C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E04F70-7A5A-4FEB-8248-77D60A0607F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E04F70-7A5A-4FEB-8248-77D60A0607F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E04F70-7A5A-4FEB-8248-77D60A0607F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E04F70-7A5A-4FEB-8248-77D60A0607F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +46,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{53C8E04A-AAF8-4223-AAD1-83D46245C0C6} = {21CDAF9A-9545-425A-A434-6E60EAD127A1}
 		{03CE6146-3556-4E67-9CFF-CADD07A52F3A} = {21CDAF9A-9545-425A-A434-6E60EAD127A1}
+		{102C51C4-07B1-4ADC-904E-FA1FEC35249C} = {22F869B4-7328-4E8E-BBD1-AA4E23F804FC}
+		{F7E04F70-7A5A-4FEB-8248-77D60A0607F2} = {F6D493F6-E393-49E7-A2A8-244E772EFB1A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D8BEFA37-8398-4562-BF57-42428C304964}
