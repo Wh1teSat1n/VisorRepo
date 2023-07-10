@@ -7,6 +7,6 @@ namespace VisorRepo.Application.Abstractions
     {
         protected abstract string apiKey { get; }
         protected abstract string uri { get; }
-        public abstract Task<string> GetCurrentWeather(Location location);
+        public abstract Task<WeatherModel> GetCurrentWeather(Location location);
     }
 }
