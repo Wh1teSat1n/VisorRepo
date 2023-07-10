@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "VisorRepo.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "VisorRepo.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/VisorRepo.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VisorRepo.Application.dll": {}
+        }
+      },
+      "VisorRepo.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/VisorRepo.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VisorRepo.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "VisorRepo.Application/1.0.0": {
+      "type": "project",
+      "path": "../VisorRepo.Application/VisorRepo.Application.csproj",
+      "msbuildProject": "../VisorRepo.Application/VisorRepo.Application.csproj"
+    },
+    "VisorRepo.Domain/1.0.0": {
+      "type": "project",
+      "path": "../VisorRepo.Domain/VisorRepo.Domain.csproj",
+      "msbuildProject": "../VisorRepo.Domain/VisorRepo.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "VisorRepo.Application >= 1.0.0",
+      "VisorRepo.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\nikit\\.nuget\\packages\\": {}
@@ -33,7 +71,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Projects\\VisorRepo\\VisorRepo.Application\\VisorRepo.Application.csproj": {
+              "projectPath": "D:\\Projects\\VisorRepo\\VisorRepo.Application\\VisorRepo.Application.csproj"
+            },
+            "D:\\Projects\\VisorRepo\\VisorRepo.Domain\\VisorRepo.Domain.csproj": {
+              "projectPath": "D:\\Projects\\VisorRepo\\VisorRepo.Domain\\VisorRepo.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

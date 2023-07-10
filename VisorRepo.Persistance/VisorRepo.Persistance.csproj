@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\VisorRepo.Application\VisorRepo.Application.csproj" />
+    <ProjectReference Include="..\VisorRepo.Domain\VisorRepo.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
