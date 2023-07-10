@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tJu8A7Sd3kGZ47hjns4v7f3wHj8TyuOiZOSUbffJ7AA=",
+  "Source": "VisorRepo.WebApi",
+  "BasePath": "_content/VisorRepo.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

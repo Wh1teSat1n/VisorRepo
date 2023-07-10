@@ -5,9 +5,9 @@ namespace VisorRepo.Application
 {
     public class WeatherProvider
     {        
-        protected WeatherService<WeatherMapper<WeatherModel>> _weatherService;                
+        protected WeatherService _weatherService;                
 
-        public WeatherProvider(WeatherService<WeatherMapper<WeatherModel>> service)
+        public WeatherProvider(WeatherService service)
         {
             _weatherService = service;            
         }
@@ -15,7 +15,7 @@ namespace VisorRepo.Application
         public async Task<Weather> GetWeatherAsync(Location location)
         {
             WeatherModel model = await _weatherService.GetCurrentWeather(location);
-            Weather weather = _weatherService.WeatherMapper.Map(model);
+            Weather weather = _weatherService.WeatherMapper.Map();
 
             return weather;
         }

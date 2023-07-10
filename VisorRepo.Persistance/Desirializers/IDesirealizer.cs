@@ -4,6 +4,6 @@ namespace VisorRepo.Persistance.Desirializers
 {
     public interface IDesirealizer
     {
-        Task<WeatherModel> Deserialize(Stream stream);
+        Task<WeatherModel> Deserialize(string weatherJson);
     }
 }

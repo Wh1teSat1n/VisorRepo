@@ -1,0 +1,12 @@
+D:\Projects\VisorRepo\VisorRepo.Domain\bin\Debug\net6.0\VisorRepo.Domain.deps.json
+D:\Projects\VisorRepo\VisorRepo.Domain\bin\Debug\net6.0\VisorRepo.Domain.dll
+D:\Projects\VisorRepo\VisorRepo.Domain\bin\Debug\net6.0\VisorRepo.Domain.pdb
+D:\Projects\VisorRepo\VisorRepo.Domain\obj\Debug\net6.0\VisorRepo.Domain.csproj.AssemblyReference.cache
+D:\Projects\VisorRepo\VisorRepo.Domain\obj\Debug\net6.0\VisorRepo.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\VisorRepo\VisorRepo.Domain\obj\Debug\net6.0\VisorRepo.Domain.AssemblyInfoInputs.cache
+D:\Projects\VisorRepo\VisorRepo.Domain\obj\Debug\net6.0\VisorRepo.Domain.AssemblyInfo.cs
+D:\Projects\VisorRepo\VisorRepo.Domain\obj\Debug\net6.0\VisorRepo.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\VisorRepo\VisorRepo.Domain\obj\Debug\net6.0\VisorRepo.Domain.dll
+D:\Projects\VisorRepo\VisorRepo.Domain\obj\Debug\net6.0\refint\VisorRepo.Domain.dll
+D:\Projects\VisorRepo\VisorRepo.Domain\obj\Debug\net6.0\VisorRepo.Domain.pdb
+D:\Projects\VisorRepo\VisorRepo.Domain\obj\Debug\net6.0\ref\VisorRepo.Domain.dll

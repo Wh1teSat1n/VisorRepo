@@ -6,9 +6,10 @@ namespace VisorRepo.Persistance.Desirializers
 {
     public class STDeserializer : IDesirealizer
     {
-        public async Task<WeatherModel> Deserialize(Stream stream)
+        public async Task<WeatherModel> Deserialize(string weatherJson)
         {
-            return await JsonSerializer.DeserializeAsync<OpenWeatherModel>(stream);
+            //return await JsonSerializer.DeserializeAsync<OpenWeatherModel>(weatherJson);
+            return null;
         }
     }
 }

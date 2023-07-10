@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "VisorRepo.Application/1.0.0": {
+        "dependencies": {
+          "VisorRepo.Domain": "1.0.0"
+        },
+        "runtime": {
+          "VisorRepo.Application.dll": {}
+        }
+      },
+      "VisorRepo.Domain/1.0.0": {
+        "runtime": {
+          "VisorRepo.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VisorRepo.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VisorRepo.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

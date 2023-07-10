@@ -2,10 +2,9 @@
 
 namespace VisorRepo.Application.Abstractions
 {
-    public abstract class WeatherMapper<T> where T : WeatherModel
+    public abstract class WeatherMapper
     {
-        protected abstract T model { get; }
-        public abstract Weather Map();
-        public abstract Weather Map(T weather);
+        protected abstract WeatherModel model { get; }
+        public abstract Weather Map();        
     }
 }

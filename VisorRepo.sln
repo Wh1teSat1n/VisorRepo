@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisorRepo.Persistance", "Vi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisorRepo.WebApi", "VisorRepo.WebApi\VisorRepo.WebApi.csproj", "{F7E04F70-7A5A-4FEB-8248-77D60A0607F2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{38E0EF77-E69B-4F28-9B14-DF8EF23255E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisorRepo.Test", "VisorRepo.Test\VisorRepo.Test.csproj", "{4A206E90-C1AD-4461-B603-090E66EF9F28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{F7E04F70-7A5A-4FEB-8248-77D60A0607F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7E04F70-7A5A-4FEB-8248-77D60A0607F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7E04F70-7A5A-4FEB-8248-77D60A0607F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A206E90-C1AD-4461-B603-090E66EF9F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A206E90-C1AD-4461-B603-090E66EF9F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A206E90-C1AD-4461-B603-090E66EF9F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A206E90-C1AD-4461-B603-090E66EF9F28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +56,7 @@ Global
 		{03CE6146-3556-4E67-9CFF-CADD07A52F3A} = {21CDAF9A-9545-425A-A434-6E60EAD127A1}
 		{102C51C4-07B1-4ADC-904E-FA1FEC35249C} = {22F869B4-7328-4E8E-BBD1-AA4E23F804FC}
 		{F7E04F70-7A5A-4FEB-8248-77D60A0607F2} = {F6D493F6-E393-49E7-A2A8-244E772EFB1A}
+		{4A206E90-C1AD-4461-B603-090E66EF9F28} = {38E0EF77-E69B-4F28-9B14-DF8EF23255E3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D8BEFA37-8398-4562-BF57-42428C304964}

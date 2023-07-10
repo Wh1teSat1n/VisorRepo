@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "GRa/m6Ngk4c/2F9ALYmWUsoBmnglcrE5SxPGx/eylZB5MeRFHp5eGV2KofI3i233LK/rqubNnLN4TsAooYDxow==",
+  "dgSpecHash": "xOnv0fAOBXggmICAKSQQSiQ5z/iTFqikTIZM70HXL77IGmi/ps2349E/PuYzdYgvu2tHcZp1AT+6M6WvcYvz5Q==",
   "success": true,
   "projectFilePath": "D:\\Projects\\VisorRepo\\VisorRepo.Persistance\\VisorRepo.Persistance.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\nikit\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
