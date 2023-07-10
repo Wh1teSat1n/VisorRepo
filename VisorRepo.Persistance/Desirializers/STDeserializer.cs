@@ -8,7 +8,7 @@ namespace VisorRepo.Persistance.Desirializers
     {
         public async Task<WeatherModel> Deserialize(Stream stream)
         {
-            return await JsonSerializer.DeserializeAsync<MainWeatherModel>(stream);
+            return await JsonSerializer.DeserializeAsync<OpenWeatherModel>(stream);
         }
     }
 }

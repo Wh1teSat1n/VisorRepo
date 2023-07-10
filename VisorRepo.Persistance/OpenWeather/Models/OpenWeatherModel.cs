@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 
 namespace VisorRepo.Persistance.OpenWeather.Models
 {
-    public class MainWeatherModel : WeatherModel
+    public class OpenWeatherModel : WeatherModel
     {
         [JsonPropertyName("name")]
         public string Place { get; set; }

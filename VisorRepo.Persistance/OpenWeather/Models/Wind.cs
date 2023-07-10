@@ -5,7 +5,7 @@ namespace VisorRepo.Persistance.OpenWeather.Models
     public class Wind
     {
         [JsonPropertyName("speed")]
-        public double Speed { get; set; }
+        public float Speed { get; set; }
         [JsonPropertyName("deg")]
         public int Degree { get; set; }
     }

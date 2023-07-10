@@ -3,12 +3,15 @@ using VisorRepo.Domain;
 using VisorRepo.Persistance.OpenWeather.Models;
 using VisorRepo.Persistance.Desirializers;
 
-namespace VisorRepo.Persistance.Models.OpenWeather
+namespace VisorRepo.Persistance.OpenWeather
 {
-    public class OpenWeatherService : WeatherService
+    public class OpenWeatherService : WeatherService<OpenWeatherMapper>
     {                
         protected override string apiKey => "0e36766f7f628f6acde426bdd92810ab";
         protected override string uri => "https://api.openweathermap.org/data/2.5/weather";
+
+        public override OpenWeatherMapper WeatherMapper { get; set; }
+
         protected IDesirealizer desirealizer;
 
         public OpenWeatherService(IDesirealizer desirealizer)
@@ -19,7 +22,7 @@ namespace VisorRepo.Persistance.Models.OpenWeather
         public async override Task<WeatherModel> GetCurrentWeather(Location location)
         {
             Stream weatherJson = await GetCurrentWeatherAsJson(location);
-            MainWeatherModel weather = await desirealizer.Deserialize(weatherJson);
+            OpenWeatherModel weather = await desirealizer.Deserialize(weatherJson) as OpenWeatherModel;
 
             return weather;
         }     
